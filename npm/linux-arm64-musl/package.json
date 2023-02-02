@@ -1,0 +1,35 @@
+{
+  "name": "@nezu-network/sockets-linux-arm64-musl",
+  "version": "1.0.0",
+  "os": [
+    "linux"
+  ],
+  "cpu": [
+    "arm64"
+  ],
+  "libc": [
+    "musl"
+  ],
+  "main": "sockets.linux-arm64-musl.node",
+  "files": [
+    "sockets.linux-arm64-musl.node"
+  ],
+  "description": "Enet bindings to Node.js via Node-API",
+  "keywords": [
+    "napi-rs",
+    "NAPI",
+    "N-API",
+    "Rust",
+    "node-addon",
+    "node-addon-api"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">= 10"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "repository": "git@github.com:napi-rs/sockets.git"
+}

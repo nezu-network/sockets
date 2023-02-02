@@ -1,0 +1,32 @@
+{
+  "name": "@nezu-network/sockets-darwin-x64",
+  "version": "1.0.0",
+  "os": [
+    "darwin"
+  ],
+  "cpu": [
+    "x64"
+  ],
+  "main": "sockets.darwin-x64.node",
+  "files": [
+    "sockets.darwin-x64.node"
+  ],
+  "description": "Enet bindings to Node.js via Node-API",
+  "keywords": [
+    "sockets",
+    "NAPI",
+    "N-API",
+    "Rust",
+    "node-addon",
+    "node-addon-api"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">= 10"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "repository": "git@github.com:sockets/sockets.git"
+}
